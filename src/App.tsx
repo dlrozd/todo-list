@@ -17,11 +17,7 @@ export const App = () => {
         {id: 5, title: 'TypeScript', isDone: false},
         {id: 6, title: 'NodeJS', isDone: false},
     ]
-    const tasks2: Task[] = [
-        {id: 1, title: 'Hello world', isDone: true},
-        {id: 2, title: 'I am Happy', isDone: false},
-
-    ]
+    const tasks2: Task[] = []
 
     return (
         <div className="app">
